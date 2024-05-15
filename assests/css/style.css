@@ -1,0 +1,197 @@
+:root {
+    --bg1: #2d2a2c;
+    --bg2: rgba(44, 42, 42, 0.685);
+    --body: rgb(95, 86, 86);
+    --brand:#F2B03B;
+    --white:rgb(156, 154, 154);
+    --p:rgb(161, 150, 150);
+    
+}
+
+body {
+    background-color: var(--bg1);
+}
+
+#banner {
+    background: url('https://media.istockphoto.com/id/178607698/photo/the-nest.jpg?s=612x612&w=0&k=20&c=GTmIMOGeBg3Vlq-oC_96R6Av1XpM-xb2d_-SWZdSFZ8=');
+    min-height: 100vh;
+    background-size: cover;
+}
+
+.navbar {
+    background: linear- gradient(to bottom, hsle( 0,2%,17%, 0.829),rgba(44,42,0.884));
+}
+   
+        .navbar .nar-link:hover{
+         color: var[--brand] important;
+ }
+ .btn{
+    padding:15px 30px;
+    transition: all 0.45 ease;
+    font-weight: 800;
+    border-radius: 0;
+ }
+ .btn-brand{
+    background-color:var(--brand);
+
+ }
+    .btn-brand:hover {
+        background-color:transparent;
+        columns:var(--bg1);
+        border-color:var(--brand);
+
+    }
+        .icon-box-img {
+        width: 40%;
+
+        }
+        
+        .btn-brand:hover {
+          background-color: var(--b1);
+          color: var(--body);
+        }
+
+        .card{
+          transition:background-color 0.3s, color;
+        }
+        .card:hover{
+            background-color: var(--bg1);
+        }
+
+        .card:hover .card-title,
+        .card:hover .card-text
+        .card:hover .btn{
+            color: #f5f0f1;
+        }
+        #cta {
+            position:relative;
+        opacity: 0.90;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repaet;
+        /*parallax effect*/
+        background-attatchment: fixed;
+        /* parallax effect / to remove to effect set to normal*/
+        background-image:  url('https://media.istockphoto.com/id/178607698/photo/the-nest.jpg?s=612x612&w=0&k=20&c=GTmIMOGeBg3Vlq-oC_96R6Av1XpM-xb2d_-SWZdSFZ8='); 
+        min-height: 70vh;
+
+        }
+        #review {
+            background-color: var(--white);
+        }
+
+        #testimonial {
+            background-coclor: var(--bg2);
+            padding:30px;
+        }
+
+        .testimonials img {
+            width:  65px;
+            border-radius:100px;
+            height: 65px;
+        }
+        #review a {
+            color: var(--brand);
+          
+        }
+
+        section {
+            padding-top: 100px;
+            padding-bottom: 100px
+
+        }
+
+        .faq-section{
+            max-width:800px;
+            margin-auto:var(--white)
+
+        }
+
+        .accordion-item{
+            margin-bottom: 20px;
+            border-radius:0;
+        
+        }
+
+        .accordion-buttom{
+            background-color: beige;
+            border: none;
+            border-bottom: 1px solid color(xyz-d65 red green blue);
+            border-radius: 0;
+            padding: 15px;
+            font-size: 18px;
+            font-weight: 500;
+            color: rgb(14, 16 110);
+            cursor: pointer;
+            transition: background-color 0.3s, color 0. 3s,
+
+        }
+
+        accordion-body{
+            border-left: 3px solid var(--brand);
+            padding: 10px 15 px;
+            margin-left: 0;
+            background-color: papayawhip;
+        }
+        .faq-answer p{
+            margin-bottom: 0;
+        }
+        .accordion-button:focus{
+            box-shadow: none;
+        
+        }
+        .accordion-button:not(.collapsed){
+            color:var(--bg1)
+        }
+        
+        /*Hover effect for FAQ Question*/
+        .accordion-button:hover{
+            background-color: rgb(41, 8, 13);
+            color:var(--bg1)
+        
+        
+        }
+        /*Hover effect for FAQ question */
+        .faq-question:after{
+            font-family: "Font Awesome 5 Free";
+            content:"";/*Plus icon*/
+            float:right;
+            font-weight: 900;
+            margin-left:auto
+        }
+        
+        .accordion-button[aria-expanded="true"]::after{
+            content:"";
+        }
+        .footer .container {
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+        
+        .footer h5 {
+            margin-bottom: 20px;
+        }
+        
+        .footer p {
+            margin-bottom: 10px;
+        }
+        
+        @media (max-width: 768px) {
+            .footer .col-md-3 {
+                margin-bottom: 30px;
+            }
+        }
+        #footer {
+            background-color: lightblue;
+        }
+        
+          
+        
+        
+
+    
+
+
+
+
+
